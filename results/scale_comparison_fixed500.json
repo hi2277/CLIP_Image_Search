@@ -1,0 +1,33 @@
+{
+  "model": "ViT-B/32",
+  "device": "cpu",
+  "query_source": "subset_100.csv",
+  "query_sha256": "142dbceb0cfa3d530cf89c74ada349d145e45325c7411ebcc4042bac3848f506",
+  "protocol": "Same 500 queries for all candidate sizes",
+  "results": [
+    {
+      "candidate_images": 100,
+      "queries": 500,
+      "recall_at_1": 0.816,
+      "recall_at_5": 0.982,
+      "recall_at_10": 0.992,
+      "mean_query_ms": 81.14192743203239
+    },
+    {
+      "candidate_images": 500,
+      "queries": 500,
+      "recall_at_1": 0.602,
+      "recall_at_5": 0.872,
+      "recall_at_10": 0.948,
+      "mean_query_ms": 89.41683304202525
+    },
+    {
+      "candidate_images": 1000,
+      "queries": 500,
+      "recall_at_1": 0.526,
+      "recall_at_5": 0.806,
+      "recall_at_10": 0.892,
+      "mean_query_ms": 93.33187169408484
+    }
+  ]
+}

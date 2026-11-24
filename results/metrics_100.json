@@ -1,0 +1,13 @@
+{
+  "model": "ViT-B/32",
+  "device": "cpu",
+  "candidate_images": 100,
+  "queries": 500,
+  "subset_sha256": "142dbceb0cfa3d530cf89c74ada349d145e45325c7411ebcc4042bac3848f506",
+  "recall": {
+    "R@1": 0.816,
+    "R@5": 0.982,
+    "R@10": 0.992
+  },
+  "mean_query_seconds": 0.08470781798600364
+}

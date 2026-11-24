@@ -1,0 +1,12 @@
+
+.venv/
+.venv311/
+__pycache__/
+*.pyc
+.DS_Store
+models/
+data/images/
+data/flickr8k/Images/
+data/flickr8k/captions.txt
+data/flickr8k/features_*.npz
+*.zip

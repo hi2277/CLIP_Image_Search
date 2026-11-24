@@ -1,0 +1,8 @@
+numpy==1.26.4
+torch==2.2.2
+torchvision==0.17.2
+Pillow==11.3.0
+streamlit==1.41.1
+# Install OpenAI CLIP from its official repository, not a namesake package.
+# The reviewed environment reports clip==1.0; its Git commit was not recorded.
+git+https://github.com/openai/CLIP.git
